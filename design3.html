@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>INVESTINDXB | The Narrative of Luxury</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Lora:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        investindxb: "#D90429",
+                        navy: "#0A192F",
+                        silver: "#C0C0C0",
+                        canvas: "#FFFFFF",
+                    },
+                    fontFamily: {
+                        sans: ["Space Grotesk", "sans-serif"],
+                        serif: ["Lora", "serif"],
+                    },
+                },
+            },
+        };
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-vertical {
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+            }
+            .clip-diagonal {
+                clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+            }
+            .asymmetric-grid {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                gap: 1.5rem;
+            }
+            .editorial-underline {
+                position: relative;
+            }
+            .editorial-underline::after {
+                content: '';
+                position: absolute;
+                bottom: -4px;
+                left: 0;
+                width: 60px;
+                height: 4px;
+                background: #D90429;
+            }
+            .hero-mask {
+                clip-path: polygon(10% 0, 100% 0, 100% 90%, 0 100%);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-canvas text-navy font-serif selection:bg-investindxb selection:text-white">
+    <nav class="fixed top-0 w-full z-[100] bg-white/95 backdrop-blur-md border-b border-navy/10">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-16">
+                <div class="flex items-center gap-2">
+                    <span class="text-3xl font-sans font-bold tracking-tighter text-navy">IMP<span
+                            class="text-investindxb">ERIAL.</span></span>
+                </div>
+                <div
+                    class="hidden lg:flex items-center space-x-8 font-sans text-[11px] font-bold uppercase tracking-widest text-navy/60">
+                    <a class="hover:text-investindxb transition-colors" href="#">The Collection</a>
+                    <a class="hover:text-investindxb transition-colors" href="#">Narratives</a>
+                    <a class="hover:text-investindxb transition-colors" href="#">Legacy</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-6">
+                <span
+                    class="hidden sm:block font-sans text-[11px] font-bold tracking-widest text-navy/40 uppercase">Dubai,
+                    UAE</span>
+                <a class="px-6 py-3 bg-navy text-white font-sans text-[11px] font-bold uppercase tracking-widest hover:bg-investindxb transition-all duration-300"
+                    href="#">Enquire</a>
+            </div>
+        </div>
+    </nav>
+    <header class="relative min-h-screen pt-24 overflow-hidden bg-white">
+        <div class="container mx-auto px-6 h-full">
+            <div class="asymmetric-grid items-stretch py-12">
+                <div class="col-span-12 lg:col-span-5 flex flex-col justify-center z-20">
+                    <div class="mb-6 flex items-center gap-4">
+                        <span class="w-12 h-px bg-investindxb"></span>
+                        <span class="font-sans text-[11px] font-bold uppercase tracking-[0.4em] text-investindxb">Issue No.
+                            01 — 2024</span>
+                    </div>
+                    <h1
+                        class="font-sans text-[clamp(4rem,10vw,9rem)] font-extrabold leading-[0.85] text-navy tracking-tighter mb-8">
+                        CRAFTING <br /> <span class="italic font-serif font-light text-investindxb">LEGACIES.</span>
+                    </h1>
+                    <p class="text-xl md:text-2xl text-navy/70 leading-relaxed mb-10 max-w-md italic">
+                        "We don't just build; we disrupt conventions to define the next frontier of luxury."
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-6">
+                        <button
+                            class="px-10 py-5 bg-investindxb text-white font-sans font-bold uppercase tracking-widest text-xs hover:bg-navy transition-all shadow-xl">
+                            Explore Masterpieces
+                        </button>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-7 relative min-h-[600px] mt-12 lg:mt-0">
+                    <div
+                        class="absolute right-0 top-0 w-4/5 h-4/5 hero-mask overflow-hidden grayscale brightness-75 hover:grayscale-0 transition-all duration-1000">
+                        <img alt="Skyline" class="w-full h-full object-cover"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtl7Y1NY1iZ1Qm-QTE3--WZNDEPLgKJgIpo7NK7EN61KUaz-Kkk_v_-jFDMS05ruyU_H1EGCTSeE8vwRU4ng_yJk8eO7egMtMP3kJL2YNkHAZb_kW3N7ddl0YeytrLhoqgZpS0c0vxQOUilYS3QBHcxQsbqebvOvt6I5Na0MlR0L-QtfsIGIvTCzEh-6j1TCRWnGxKj4z7_7nP_v1xc5Tszw2Wz5Ncxp4PtQp2tGJy7XR5USAA41OtqZH9t2qtMroVNOk4bOmLSVnS" />
+                    </div>
+                    <div
+                        class="absolute left-0 bottom-0 w-3/5 h-3/5 border-[15px] border-white shadow-2xl z-10 overflow-hidden">
+                        <img alt="Architecture" class="w-full h-full object-cover"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTa_FBAOrM8JVIsaTbCWKjzGeKsNbCYEPzz7bMD6QgMoL55qxH0DZSGhLzPwBtEMkr_8jLLJHsTf7iHY1ZgYA4M9Pg0VqE3npcl5GgGXjSWRjTLKON9_Hh2tX8HYYve-wIxqvS8D5EJZDtWxEXtLNdX0aqOSSDAz2FH1ICUT5YUkegPimpjfXNi_5eklMxNP3V6N_MhPoiCVb5uEegfMnrXTU3xOP4TORMObd_ja5wJu-SKlvLTrjSWuWuoR9ag8C-S7liUfZGTo1j" />
+                    </div>
+                    <div
+                        class="absolute -right-4 bottom-1/4 text-vertical font-sans font-bold text-navy/10 text-9xl select-none leading-none">
+                        DUBAI
+                    </div>
+                    <div class="absolute -right-6 -bottom-6 bg-navy text-white p-10 max-w-[280px] z-20 hidden md:block">
+                        <span class="block font-sans text-xs font-bold uppercase tracking-widest text-investindxb mb-4">The
+                            Vision</span>
+                        <p class="font-serif italic text-sm leading-relaxed">
+                            Every silhouette is a conversation between gravity and ambition.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-32 bg-navy text-white overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="asymmetric-grid">
+                <div class="col-span-12 lg:col-span-4 mb-20 lg:mb-0">
+                    <h2 class="font-sans text-5xl font-bold tracking-tighter mb-8 editorial-underline">THE NARRATIVE
+                        JOURNEY</h2>
+                    <p class="text-silver/60 text-lg font-light leading-loose max-w-sm">
+                        Behind every development lies a story of radical disruption. We document the evolution from raw
+                        concept to immortal monument.
+                    </p>
+                    <div class="mt-16 space-y-8">
+                        <div class="flex items-center gap-6">
+                            <span class="font-sans text-4xl font-extrabold text-investindxb">01</span>
+                            <div>
+                                <h4 class="font-sans font-bold uppercase tracking-widest text-xs">Conceptual Revolt</h4>
+                                <p class="text-silver/40 text-xs">Challenging the structural norms of the region.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-6">
+                            <span class="font-sans text-4xl font-extrabold text-silver/20">02</span>
+                            <div>
+                                <h4 class="font-sans font-bold uppercase tracking-widest text-xs">Material Alchemy</h4>
+                                <p class="text-silver/40 text-xs">Curating rare textures from global quarries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-8 lg:pl-20 flex flex-col justify-center">
+                    <blockquote class="relative">
+                        <span
+                            class="absolute -top-20 -left-10 text-[15rem] font-serif text-investindxb/10 leading-none">“</span>
+                        <p class="text-3xl md:text-5xl font-serif italic leading-tight text-white relative z-10">
+                            We are not selling space; we are gifting <span
+                                class="text-investindxb underline decoration-1 underline-offset-8">immortality</span>. The
+                            architecture is simply the vessel for your legacy to reside in.
+                        </p>
+                        <footer class="mt-10 font-sans font-bold uppercase tracking-[0.3em] text-investindxb">— THE
+                            ARCHITECTS OF INVESTINDXB</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-32 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-end justify-between mb-24 border-b border-navy/10 pb-12">
+                <div class="max-w-2xl">
+                    <span
+                        class="font-sans text-xs font-bold text-investindxb uppercase tracking-[0.4em] mb-4 block">Selected
+                        Works</span>
+                    <h2 class="font-sans text-6xl font-extrabold text-navy tracking-tighter leading-none">THE INVESTINDXB
+                        COLLECTION.</h2>
+                </div>
+                <div class="mt-8 md:mt-0 font-serif italic text-navy/40">
+                    (Curated assets for the modern elite)
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 px-1">
+                <article class="group relative aspect-[3/4] overflow-hidden bg-navy">
+                    <img alt="Property"
+                        class="w-full h-full object-cover transition-transform duration-[1.5s] group-hover:scale-110 opacity-80 group-hover:opacity-100"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8lrEtftAMxiZNGL2Zr0pO2uD2mVSam-h74HGEJZbGMo601ds2RXrWuexBxfslZd9Ig7Fufp7hdl51CiY4QxmNOkZQ2u2knOBg-gqYsSNsOH7JwbXe22cDBwYp8RudIfDBVpXSW8vZjiVZEHzMrNWyKQ_oMRUoCT7aEWVtqT4i_XuxpiQ7kWjqiDDKdAEvi1ogS0EXHqEdh8Q1vmuZ2r2d0aUhTf_YadgR4gBfLVlHlp7CWV_m37Qld-aBKhW_vDETK-CDeRwbVy46" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy via-transparent to-transparent opacity-80">
+                    </div>
+                    <div class="absolute top-8 left-8">
+                        <span
+                            class="px-4 py-1 bg-investindxb text-white font-sans font-bold text-[10px] uppercase tracking-widest">Featured</span>
+                    </div>
+                    <div class="absolute bottom-10 left-10 right-10">
+                        <p class="font-sans text-[10px] font-bold text-investindxb uppercase tracking-[0.4em] mb-3">Water
+                            Canal District</p>
+                        <h3 class="font-sans text-3xl font-extrabold text-white uppercase tracking-tighter mb-6">
+                            Aetherial <br />Heights</h3>
+                        <button
+                            class="w-full py-4 border border-white/20 text-white font-sans font-bold text-[10px] uppercase tracking-widest hover:bg-white hover:text-navy transition-all duration-300">
+                            View Monograph
+                        </button>
+                    </div>
+                </article>
+                <article class="group relative aspect-[3/4] overflow-hidden bg-navy lg:mt-12">
+                    <img alt="Property"
+                        class="w-full h-full object-cover transition-transform duration-[1.5s] group-hover:scale-110 opacity-80 group-hover:opacity-100"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8lE0n6D3BYGK0tAUSspe2jdANARwnlFhNHa-o33u7l_RiYGpxpRpM7CDzBrTOmFab2ky9SIDlSLYEY7SkV0-ghMDPhUVj-1uBr0jc8oX0YgTZNyGn4OF_HS9WVVXJ3D0ZjKDBwq7VLQ-RzSD__Q7-7jYfDD6pa-ohHZLX2xYTeX9Hm88VcRdTLUtNOO1MkoHSu8cs3NtuDJweOo03lxWbN34tRjTFTz401ShN--ibO_EMaauQ3O3XUAN9EO9Qf9kSt0BDmSLbfqms" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy via-transparent to-transparent opacity-80">
+                    </div>
+                    <div class="absolute top-8 left-8">
+                        <span
+                            class="px-4 py-1 bg-white text-navy font-sans font-bold text-[10px] uppercase tracking-widest">Private
+                            Release</span>
+                    </div>
+                    <div class="absolute bottom-10 left-10 right-10">
+                        <p class="font-sans text-[10px] font-bold text-investindxb uppercase tracking-[0.4em] mb-3">
+                            Business Bay</p>
+                        <h3 class="font-sans text-3xl font-extrabold text-white uppercase tracking-tighter mb-6">
+                            Obsidian <br />Spire</h3>
+                        <button
+                            class="w-full py-4 border border-white/20 text-white font-sans font-bold text-[10px] uppercase tracking-widest hover:bg-white hover:text-navy transition-all duration-300">
+                            View Monograph
+                        </button>
+                    </div>
+                </article>
+                <article class="group relative aspect-[3/4] overflow-hidden bg-navy">
+                    <img alt="Property"
+                        class="w-full h-full object-cover transition-transform duration-[1.5s] group-hover:scale-110 opacity-80 group-hover:opacity-100"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdNzLDkAIS-KjsXp0AjYbh0ZwFEPRAFgkhSg0RRM8JXzfSuX8NrRDp_aB2gy3p7C8w8XmUXKzKWRrDRFM617d7khGIVtSI-dOXvadLveNHlUiVoYC4zGiODetDY-6INeulqvyj51l9_0XB1P6ReL9kVFSlr032KnLB5MMZatirLnl4UF182novuuItoY-JAcokAeqXSvu4dDlVclxyldaRBDcg_vtEKviCILf9HkUpDiOtnVSWX4d-pFqinE2DTHvBA4W1xsj1XkLZ" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy via-transparent to-transparent opacity-80">
+                    </div>
+                    <div class="absolute top-8 left-8">
+                        <span
+                            class="px-4 py-1 bg-investindxb text-white font-sans font-bold text-[10px] uppercase tracking-widest">Iconic</span>
+                    </div>
+                    <div class="absolute bottom-10 left-10 right-10">
+                        <p class="font-sans text-[10px] font-bold text-investindxb uppercase tracking-[0.4em] mb-3">Palm
+                            Jumeirah</p>
+                        <h3 class="font-sans text-3xl font-extrabold text-white uppercase tracking-tighter mb-6">The
+                            Crimson <br />Wing</h3>
+                        <button
+                            class="w-full py-4 border border-white/20 text-white font-sans font-bold text-[10px] uppercase tracking-widest hover:bg-white hover:text-navy transition-all duration-300">
+                            View Monograph
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE INVESTINDXB SELECTION - Curated Properties Section -->
+    <section class="py-32 bg-[#0A192F] relative overflow-hidden">
+        <!-- Decorative subtle background gradient -->
+        <div
+            class="absolute top-0 left-0 w-full h-96 bg-gradient-to-b from-[#0f2340] to-transparent pointer-events-none opacity-50">
+        </div>
+        <div class="container mx-auto px-6 relative z-10">
+            <!-- Section Header -->
+            <div class="flex flex-col md:flex-row items-end justify-between mb-24 border-b border-white/10 pb-12">
+                <div class="max-w-2xl">
+                    <span
+                        class="font-sans text-xs font-bold text-investindxb uppercase tracking-[0.4em] mb-4 block">Curated
+                        Properties</span>
+                    <h2 class="font-sans text-6xl font-extrabold text-white tracking-tighter leading-none">THE INVESTINDXB
+                        SELECTION.</h2>
+                </div>
+                <div class="mt-8 md:mt-0 font-serif italic text-white/40">
+                    (Handpicked premium residences for the modern elite)
+                </div>
+            </div>
+            <!-- Property Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 lg:gap-8">
+                <!-- Card 1 - The Artistry One Residence -->
+                <article
+                    class="group relative aspect-[3/4] w-full overflow-hidden cursor-pointer shadow-2xl border border-transparent hover:border-investindxb/30 transition-all duration-500">
+                    <div class="absolute inset-0 overflow-hidden">
+                        <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDGYTk2Xw-FsjyZf20VCu9rcrTcqBlK_fCL4vKF1X_TuEuFxXtOuS_d062C_7CgWhCvyWs3hvKv06DCrrBB9-vlh-VKSmpruc7SigLRFCiL5D8ST5JL4Wgg2oPwnA-EFOTTwViGJxhT7g1tji41OSFKaW3p-SEK5JMjDYGAapg_fk1971lMVcBfQ45aiKsD4d4TRtS0_TvDLZoi-I4yX7lRaJzFxoFzlLeE5CAT4n3dQ4QiZSjrgH2VID-LuZLHSfaJeZLP9pY8Ntbo');">
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0A192F] via-[#0A192F]/60 to-transparent opacity-90">
+                    </div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-between">
+                        <div class="flex justify-between items-start">
+                            <span
+                                class="bg-investindxb text-white text-[10px] font-bold px-3 py-1 tracking-widest uppercase">Featured</span>
+                            <span
+                                class="bg-white/10 backdrop-blur-md text-white border border-white/20 text-[10px] font-bold px-3 py-1 tracking-widest uppercase">2027</span>
+                        </div>
+                        <div class="translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                            <div class="mb-3">
+                                <p class="text-investindxb text-[10px] font-bold tracking-[0.4em] uppercase mb-2">Business
+                                    Bay</p>
+                                <h3
+                                    class="text-white text-2xl font-bold font-sans leading-tight mb-2 uppercase tracking-tight">
+                                    The Artistry<br />One Residence</h3>
+                                <p class="text-white font-serif text-xl italic font-medium">AED 2,300,000</p>
+                            </div>
+                            <div
+                                class="flex items-center gap-4 text-white/70 text-sm font-medium border-t border-white/10 pt-3 mb-5">
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">bed</span>
+                                    <span>2</span>
+                                </div>
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">bathtub</span>
+                                    <span>2</span>
+                                </div>
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">square_foot</span>
+                                    <span>1,250</span>
+                                </div>
+                            </div>
+                            <button
+                                class="w-full py-4 border border-white/20 text-white font-sans font-bold text-[10px] uppercase tracking-widest hover:bg-white hover:text-[#0A192F] transition-all duration-300">
+                                View Monograph
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!-- Card 2 - PHD Sky Line Residences -->
+                <article
+                    class="group relative aspect-[3/4] w-full overflow-hidden cursor-pointer shadow-2xl border border-transparent hover:border-investindxb/30 transition-all duration-500 lg:mt-12">
+                    <div class="absolute inset-0 overflow-hidden">
+                        <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBaHGqdgSwfFVy-N8SvOp80zCtVO_JcPot6ibBhrmUF_cwmHRSKIa0hidqhNDtPCRX7_l__BpqGOvIUEXxWmhVI4_GAnV6kzs37oH4o10RJtkdy4vSQHBkcKTtivl7rQiPnv-mG02gwZmBQ7Ri9Tt0UTGJR5h7zGoEmN-U-gEdIWdR7QO6j5XCwH6DWeFnob3yiQmBBUWvuiwLJHbZobCuZYcJh3ymqQU44onxGw6T4LkfnZ9zYVAEmfFNjJYPQkjFkQROpnI7MqlOn');">
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0A192F] via-[#0A192F]/60 to-transparent opacity-90">
+                    </div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-between">
+                        <div class="flex justify-between items-start">
+                            <span
+                                class="bg-white text-[#0A192F] text-[10px] font-bold px-3 py-1 tracking-widest uppercase">Hot
+                                Deal</span>
+                            <span
+                                class="bg-white/10 backdrop-blur-md text-white border border-white/20 text-[10px] font-bold px-3 py-1 tracking-widest uppercase">2028</span>
+                        </div>
+                        <div class="translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                            <div class="mb-3">
+                                <p class="text-investindxb text-[10px] font-bold tracking-[0.4em] uppercase mb-2">Wadi Al
+                                    Safa 5</p>
+                                <h3
+                                    class="text-white text-2xl font-bold font-sans leading-tight mb-2 uppercase tracking-tight">
+                                    PHD Sky Line<br />Residences</h3>
+                                <p class="text-white font-serif text-xl italic font-medium">AED 700,000</p>
+                            </div>
+                            <div
+                                class="flex items-center gap-4 text-white/70 text-sm font-medium border-t border-white/10 pt-3 mb-5">
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">bed</span>
+                                    <span>Studio</span>
+                                </div>
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">bathtub</span>
+                                    <span>1</span>
+                                </div>
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">square_foot</span>
+                                    <span>455</span>
+                                </div>
+                            </div>
+                            <button
+                                class="w-full py-4 border border-white/20 text-white font-sans font-bold text-[10px] uppercase tracking-widest hover:bg-white hover:text-[#0A192F] transition-all duration-300">
+                                View Monograph
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!-- Card 3 - Aqua The Central -->
+                <article
+                    class="group relative aspect-[3/4] w-full overflow-hidden cursor-pointer shadow-2xl border border-transparent hover:border-investindxb/30 transition-all duration-500">
+                    <div class="absolute inset-0 overflow-hidden">
+                        <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDDDZzUa5AsKu15dBAxZExVxsET1jN2QplSa_MQ3uK-8yizeY8iwNrlh8oxWlwaWQo2UQXbXk4UeOi5MtaJHwGgEk-q_iZnhdvPoHlmE_8i8HIPrY4bdG77ZDNiEk65bs1hy8ZG8k88pVRyX5tWD2te8tA6-LUOVVFZXfhbVrbWmsF2luNkaw_Bsui78CdwkGm4Li5wMSrVoyIsP_1VzJpZiHver61zjGhr2QA040gTf7iGEcsOzS7yQTNCMCK5HjDElF-cxwO_lZ2v');">
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0A192F] via-[#0A192F]/60 to-transparent opacity-90">
+                    </div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-between">
+                        <div class="flex justify-between items-start">
+                            <span
+                                class="bg-investindxb text-white text-[10px] font-bold px-3 py-1 tracking-widest uppercase">Featured</span>
+                            <span
+                                class="bg-white/10 backdrop-blur-md text-white border border-white/20 text-[10px] font-bold px-3 py-1 tracking-widest uppercase">2028</span>
+                        </div>
+                        <div class="translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                            <div class="mb-3">
+                                <p class="text-investindxb text-[10px] font-bold tracking-[0.4em] uppercase mb-2">Arjan,
+                                    Dubai</p>
+                                <h3
+                                    class="text-white text-2xl font-bold font-sans leading-tight mb-2 uppercase tracking-tight">
+                                    Aqua The<br />Central</h3>
+                                <p class="text-white font-serif text-xl italic font-medium">AED 720,000</p>
+                            </div>
+                            <div
+                                class="flex items-center gap-4 text-white/70 text-sm font-medium border-t border-white/10 pt-3 mb-5">
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">bed</span>
+                                    <span>1</span>
+                                </div>
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">bathtub</span>
+                                    <span>2</span>
+                                </div>
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">square_foot</span>
+                                    <span>800</span>
+                                </div>
+                            </div>
+                            <button
+                                class="w-full py-4 border border-white/20 text-white font-sans font-bold text-[10px] uppercase tracking-widest hover:bg-white hover:text-[#0A192F] transition-all duration-300">
+                                View Monograph
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!-- Card 4 - Rove Home Meydan -->
+                <article
+                    class="group relative aspect-[3/4] w-full overflow-hidden cursor-pointer shadow-2xl border border-transparent hover:border-investindxb/30 transition-all duration-500 lg:mt-12">
+                    <div class="absolute inset-0 overflow-hidden">
+                        <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCCfBH3z1QE_tXyxknc6670-0WmruPGMV4KOz0ERB8nKaYDOGfrSRT20XeZyFQcKV-kmUbtcfk5-3oJ0fE_yOr0_p1vlT7oXY_ibWUsHfdS0uc7sSSFnKKhw7hRW-Bw9JvPuICUC6VGGxUlRO-z6eempoJrFBUDjWQs_f6VYopFiQaARbQ2wJFcU_O3N5YrmD488nnvQFMC3qFzGtSd-4IJN1XL9D1ajHhYr2C_U-GCMlh9GaB5skBx-vpXYl4lTmj9PEIqV-QKQnGD');">
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#0A192F] via-[#0A192F]/60 to-transparent opacity-90">
+                    </div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-between">
+                        <div class="flex justify-between items-start">
+                            <span
+                                class="bg-investindxb text-white text-[10px] font-bold px-3 py-1 tracking-widest uppercase">Selling
+                                Fast</span>
+                            <span
+                                class="bg-white/10 backdrop-blur-md text-white border border-white/20 text-[10px] font-bold px-3 py-1 tracking-widest uppercase">2029</span>
+                        </div>
+                        <div class="translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                            <div class="mb-3">
+                                <p class="text-investindxb text-[10px] font-bold tracking-[0.4em] uppercase mb-2">Nad Al
+                                    Sheba</p>
+                                <h3
+                                    class="text-white text-2xl font-bold font-sans leading-tight mb-2 uppercase tracking-tight">
+                                    Rove Home<br />Meydan</h3>
+                                <p class="text-white font-serif text-xl italic font-medium">AED 1,617,777</p>
+                            </div>
+                            <div
+                                class="flex items-center gap-4 text-white/70 text-sm font-medium border-t border-white/10 pt-3 mb-5">
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">bed</span>
+                                    <span>2</span>
+                                </div>
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">bathtub</span>
+                                    <span>2</span>
+                                </div>
+                                <div class="flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[16px]">square_foot</span>
+                                    <span>1,100</span>
+                                </div>
+                            </div>
+                            <button
+                                class="w-full py-4 border border-white/20 text-white font-sans font-bold text-[10px] uppercase tracking-widest hover:bg-white hover:text-[#0A192F] transition-all duration-300">
+                                View Monograph
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Bottom CTA -->
+            <div class="mt-16 text-center">
+                <a class="inline-flex items-center gap-2 text-white hover:text-investindxb transition-colors font-sans font-bold text-sm tracking-widest uppercase group"
+                    href="#">
+                    <span>View All Properties</span>
+                    <span
+                        class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- INVESTINDXB HOTSPOTS - Interactive Map Section -->
+    <section class="py-32 bg-[#061020] relative overflow-hidden">
+        <style>
+            @keyframes pulse-investindxb {
+                0% {
+                    transform: scale(0.95);
+                    box-shadow: 0 0 0 0 rgba(217, 4, 41, 0.7);
+                }
+
+                70% {
+                    transform: scale(1);
+                    box-shadow: 0 0 0 10px rgba(217, 4, 41, 0);
+                }
+
+                100% {
+                    transform: scale(0.95);
+                    box-shadow: 0 0 0 0 rgba(217, 4, 41, 0);
+                }
+            }
+
+            .pulse-investindxb {
+                animation: pulse-investindxb 2s infinite;
+            }
+        </style>
+        <div class="container mx-auto px-6 relative z-10">
+            <!-- Section Header -->
+            <div class="flex flex-col md:flex-row items-end justify-between mb-16 border-b border-white/10 pb-12">
+                <div class="max-w-2xl">
+                    <span class="font-sans text-xs font-bold text-investindxb uppercase tracking-[0.4em] mb-4 block">Market
+                        Intelligence</span>
+                    <h2 class="font-sans text-6xl font-extrabold text-white tracking-tighter leading-none">THE <span
+                            class="text-investindxb italic font-serif font-light">HOTSPOTS.</span></h2>
+                </div>
+                <div class="mt-8 md:mt-0 font-serif italic text-white/40">(Top-tier investment districts ranked by
+                    yield)</div>
+            </div>
+            <!-- Map Content -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                <!-- Left: Interactive Map -->
+                <div
+                    class="lg:col-span-8 relative bg-navy/50 rounded-lg overflow-hidden border border-white/5 min-h-[500px]">
+                    <div class="absolute inset-0 opacity-30 pointer-events-none">
+                        <svg class="w-full h-full" fill="none" viewbox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M100 500C200 450 300 480 400 420C500 360 600 400 700 320" stroke="#D90429"
+                                stroke-width="2"></path>
+                            <path d="M150 550C250 500 350 520 450 480C550 440 650 460 750 400" stroke="#D90429"
+                                stroke-dasharray="4 4" stroke-width="1"></path>
+                            <circle cx="400" cy="300" r="150" stroke="#D90429" stroke-dasharray="10 10"
+                                stroke-width="0.5"></circle>
+                        </svg>
+                    </div>
+                    <div class="relative w-full h-full min-h-[500px] bg-center bg-contain bg-no-repeat flex items-center justify-center"
+                        style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDOYiCZBmxWf-rUb7VsgiaSZjDT5IlVe3qO2rFk4Zo8moWcjKA18ddrFp8S4U_k1jaJGgXBds4Jxxu9qEZel--JotXiKQoEgxxtfnbUWOFnPQEtOeKRr-oyk04WnlptMzhwGQNfSfl17d7-P6KEAu9FfIjSWt8UWZ7dI0JbjkUCWtMH5DKZf3ahYrK5QVZ1SoQMQnQr_abFBirhIzJbzNg4H8io_9egsTNzNNflH6wNE0RQvNkXFYlpAKnhbzLv8WipeEkFjUmXZEUZ');">
+                        <!-- Hotspot: Dubai Marina -->
+                        <div class="absolute top-[65%] left-[20%] group cursor-pointer">
+                            <div class="pulse-investindxb size-4 bg-investindxb rounded-full relative z-10"></div>
+                            <div
+                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 hidden group-hover:block w-48 bg-navy border border-investindxb/30 p-3 shadow-2xl backdrop-blur-md">
+                                <p class="text-[10px] text-investindxb font-bold uppercase tracking-widest">Hotspot 01</p>
+                                <p class="text-sm font-bold text-white font-sans">Dubai Marina</p>
+                                <p class="text-xs text-white/60">Yield: 7.2% | Grade: AAA</p>
+                            </div>
+                        </div>
+                        <!-- Hotspot: Downtown Dubai -->
+                        <div class="absolute top-[45%] left-[45%] group cursor-pointer">
+                            <div class="pulse-investindxb size-4 bg-investindxb rounded-full relative z-10"></div>
+                            <div
+                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 hidden group-hover:block w-48 bg-navy border border-investindxb/30 p-3 shadow-2xl backdrop-blur-md">
+                                <p class="text-[10px] text-investindxb font-bold uppercase tracking-widest">Hotspot 02</p>
+                                <p class="text-sm font-bold text-white font-sans">Downtown Dubai</p>
+                                <p class="text-xs text-white/60">Yield: 6.8% | Grade: A+</p>
+                            </div>
+                        </div>
+                        <!-- Hotspot: Dubai Islands -->
+                        <div class="absolute top-[25%] left-[70%] group cursor-pointer">
+                            <div class="pulse-investindxb size-4 bg-investindxb rounded-full relative z-10"></div>
+                            <div
+                                class="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 hidden group-hover:block w-48 bg-navy border border-investindxb/30 p-3 shadow-2xl backdrop-blur-md">
+                                <p class="text-[10px] text-investindxb font-bold uppercase tracking-widest">Hotspot 03</p>
+                                <p class="text-sm font-bold text-white font-sans">Dubai Islands</p>
+                                <p class="text-xs text-white/60">Yield: 8.1% | Grade: Emerging</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right: District Cards -->
+                <div class="lg:col-span-4 space-y-4">
+                    <!-- Dubai Marina Card -->
+                    <div
+                        class="group relative bg-navy border-l-4 border-investindxb p-5 transition-all hover:bg-navy/80 cursor-pointer">
+                        <div class="flex items-start gap-4">
+                            <div class="size-14 rounded-full border-2 border-investindxb/30 overflow-hidden flex-shrink-0">
+                                <div class="w-full h-full bg-cover bg-center"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAy_MlGICkZN0pzPvpUpDXTNykf14EPXW5cCez8wK1UMNpa4PZFvhgYFAPg3JAkpeo0tuwLDGRCLM_-opSWU_noZMZKfnPfkfgKrSrE4q4KWwkBjNaBVMC812M_XzlS70XW1nGzq0sytsOGXSG56oaeqkutD0uzYHdrA46cRDhPUp51Q8M0N7AfUte0vC0VFnUPaOBVYp7bzXR7N6nlQxv0wzdO3G5G4V3aPvj9x3-sFpgi6dgHXoQGk7aFZXESfmtmUe1ijUpsLIX-');">
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex justify-between items-start mb-1">
+                                    <h3 class="text-lg font-bold text-white font-sans">Dubai Marina</h3>
+                                    <span
+                                        class="bg-investindxb/20 text-investindxb text-[10px] font-bold px-2 py-1 border border-investindxb/30 uppercase">7.2%</span>
+                                </div>
+                                <p class="text-xs text-white/40 mb-2">West Dubai Coastline</p>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-[10px] text-green-500 font-bold uppercase">+4.2% YoY</span>
+                                    <span class="text-[10px] text-amber-400 font-bold">Grade: AAA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Downtown Dubai Card -->
+                    <div
+                        class="group relative bg-white/5 border-l-4 border-transparent p-5 transition-all hover:border-investindxb/50 hover:bg-white/10 cursor-pointer">
+                        <div class="flex items-start gap-4">
+                            <div class="size-14 rounded-full border border-white/10 overflow-hidden flex-shrink-0">
+                                <div class="w-full h-full bg-cover bg-center"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAO9viOQT8j64k2l8II5FCpjivywE0rFigtY7uRVOzjxGyKZ8nJjFXYa7l9bA_NOfsJMkwfOIZig4dS4_JqzzTJqPC1ia75DTXYgQCGKe8Gdpf7gqdIT-6ZCmT9OVKGG1BCUKlG7jfIOlk9G0Do6AqKKq0b09RbRwE7kalnsK1ZZaG_kHbNii3S1x4ghCCgetUtM2GPRpzRO99MP5057TyGPf0CemrQbT_xx1AxFLbGdjX7au2l3oosRJ93FAEGeBhRuA9RntbweaHs');">
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex justify-between items-start mb-1">
+                                    <h3 class="text-lg font-bold text-white font-sans">Downtown Dubai</h3>
+                                    <span
+                                        class="bg-white/10 text-white/70 text-[10px] font-bold px-2 py-1 border border-white/10 uppercase">6.8%</span>
+                                </div>
+                                <p class="text-xs text-white/40 mb-2">Central Business District</p>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-[10px] text-yellow-500 font-bold uppercase">Stable</span>
+                                    <span class="text-[10px] text-amber-400 font-bold">Grade: A+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- JVC Card -->
+                    <div
+                        class="group relative bg-white/5 border-l-4 border-transparent p-5 transition-all hover:border-investindxb/50 hover:bg-white/10 cursor-pointer">
+                        <div class="flex items-start gap-4">
+                            <div class="size-14 rounded-full border border-white/10 overflow-hidden flex-shrink-0">
+                                <div class="w-full h-full bg-cover bg-center"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAG8Z4-_Cq5iv6F_WVzOBpCB-B0dvnXRQPF-N-Lv8W8xtetGJH6-26RpeqrTyV-PeAqEpr8Inv-3tDNU6_fS951mu3TWCVITgPHbqBt0KLn2v24H8GzOja3GCR-LOr-PjR5xCc1sGtLQwZID4y3mE3ntGKGo-RJs1f8M-mprhfq8A-7yxvvFreo0MOmYehD0C6cIxE-e2mISBKnLAye9osxDco2Z322F8JcNeyT9zh43sf3xbks7Qr6tfWgFItaky2U8gdOsQ_kbaj-');">
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex justify-between items-start mb-1">
+                                    <h3 class="text-lg font-bold text-white font-sans">JVC District</h3>
+                                    <span
+                                        class="bg-investindxb/10 text-investindxb text-[10px] font-bold px-2 py-1 border border-investindxb/20 uppercase">8.4%</span>
+                                </div>
+                                <p class="text-xs text-white/40 mb-2">Inland Residential</p>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-[10px] text-green-500 font-bold uppercase">+12.5% YoY</span>
+                                    <span class="text-[10px] text-amber-400 font-bold">Grade: B+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dubai Islands Card -->
+                    <div
+                        class="group relative bg-white/5 border-l-4 border-transparent p-5 transition-all hover:border-investindxb/50 hover:bg-white/10 cursor-pointer">
+                        <div class="flex items-start gap-4">
+                            <div class="size-14 rounded-full border border-white/10 overflow-hidden flex-shrink-0">
+                                <div class="w-full h-full bg-cover bg-center"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBVsliKSOTo1TJG7T9rLaCxLLaQ65p3zE36siXg5AC08QWGBlej5CdFDZz0Hkbk3ZOFqxs60mh_wL6rEYKS6eD3iotb0Xv_3pK4VgIZOYJumPSKMAUBQUSxODv73tgk2PsUQASbKu8Dg4w17ne61aRtrfWao7u8itRnrvZDtrlVx9bvmwdwDBN_0hHXSAwssM0S49CM4EjoxdNxXMOz0XI7aoEmkJ4GHyGwU9HYWZPoLOKEIlhNpqarg9_aHmOdAnrE_B-s_rHnFNeb');">
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex justify-between items-start mb-1">
+                                    <h3 class="text-lg font-bold text-white font-sans">Dubai Islands</h3>
+                                    <span
+                                        class="bg-investindxb/20 text-investindxb text-[10px] font-bold px-2 py-1 border border-investindxb/30 uppercase">8.1%</span>
+                                </div>
+                                <p class="text-xs text-white/40 mb-2">North Shore Projects</p>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-[10px] text-investindxb font-bold uppercase">High Potential</span>
+                                    <span class="text-[10px] text-amber-400 font-bold">Grade: Emerging</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CTA Button -->
+                    <a class="block w-full py-4 border border-white/20 text-white font-sans font-bold text-[10px] uppercase tracking-widest text-center hover:bg-white hover:text-navy transition-all duration-300"
+                        href="https://investindxb.com">
+                        Explore All Districts
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white border-y border-navy/5">
+        <div class="container mx-auto px-6 text-center">
+            <h2
+                class="font-sans text-[clamp(2rem,6vw,5rem)] font-extrabold text-navy tracking-tighter leading-none mb-12">
+                DISRUPTING THE <span class="text-investindxb italic font-serif font-light">CONVENTIONAL.</span>
+            </h2>
+            <div class="flex justify-center">
+                <a class="group flex items-center gap-4 font-sans font-bold uppercase tracking-[0.5em] text-xs text-navy"
+                    href="#">
+                    Partner with the elite
+                    <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">east</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-white pt-24 pb-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-24">
+                <div class="lg:col-span-5">
+                    <span class="text-4xl font-sans font-bold tracking-tighter text-navy mb-8 block">INVESTINDXB.</span>
+                    <p class="text-navy/60 font-serif italic text-lg max-w-sm mb-10 leading-relaxed">
+                        Curating the skyline of tomorrow with the architectural rebellion of today.
+                    </p>
+                    <div class="flex gap-6">
+                        <a class="text-navy hover:text-investindxb transition-colors font-sans font-bold text-[10px] uppercase tracking-widest"
+                            href="#">Instagram</a>
+                        <a class="text-navy hover:text-investindxb transition-colors font-sans font-bold text-[10px] uppercase tracking-widest"
+                            href="#">LinkedIn</a>
+                        <a class="text-navy hover:text-investindxb transition-colors font-sans font-bold text-[10px] uppercase tracking-widest"
+                            href="#">Behance</a>
+                    </div>
+                </div>
+                <div class="lg:col-span-3">
+                    <h5 class="font-sans font-bold text-[10px] uppercase tracking-widest text-navy mb-8">Navigation</h5>
+                    <ul class="space-y-4 font-sans text-xs font-medium text-navy/40">
+                        <li><a class="hover:text-investindxb transition-colors" href="#">Curated List</a></li>
+                        <li><a class="hover:text-investindxb transition-colors" href="#">Development Data</a></li>
+                        <li><a class="hover:text-investindxb transition-colors" href="#">Investment Logic</a></li>
+                        <li><a class="hover:text-investindxb transition-colors" href="#">Archives</a></li>
+                    </ul>
+                </div>
+                <div class="lg:col-span-4">
+                    <h5 class="font-sans font-bold text-[10px] uppercase tracking-widest text-navy mb-8">The Monograph
+                    </h5>
+                    <p class="text-xs text-navy/40 mb-6">Receive our quarterly editorial on architectural shifts.</p>
+                    <div class="flex border-b border-navy/20 py-2">
+                        <input
+                            class="bg-transparent border-none focus:ring-0 text-navy placeholder:text-navy/20 w-full font-sans text-xs uppercase tracking-widest"
+                            placeholder="Email Address" type="email" />
+                        <button
+                            class="font-sans font-bold text-[10px] uppercase text-investindxb tracking-widest">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center border-t border-navy/5 pt-12 gap-6">
+                <span class="font-sans text-[9px] font-bold text-navy/30 uppercase tracking-[0.5em]">© 2024 INVESTINDXB
+                    REAL ESTATE. ALL RIGHTS RESERVED.</span>
+                <div class="flex gap-8">
+                    <a class="font-sans text-[9px] font-bold text-navy/30 uppercase tracking-[0.5em] hover:text-navy"
+                        href="#">Privacy</a>
+                    <a class="font-sans text-[9px] font-bold text-navy/30 uppercase tracking-[0.5em] hover:text-navy"
+                        href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="fixed bottom-8 right-8 z-[200] flex flex-col gap-4">
+        <a class="w-14 h-14 bg-navy text-white rounded-full flex items-center justify-center shadow-2xl hover:bg-investindxb transition-all group overflow-hidden"
+            href="#">
+            <span
+                class="material-symbols-outlined text-2xl group-hover:-translate-y-12 transition-transform duration-300">chat</span>
+            <span
+                class="material-symbols-outlined text-2xl absolute translate-y-12 group-hover:translate-y-0 transition-transform duration-300">chat</span>
+        </a>
+        <a class="w-14 h-14 bg-white text-navy border border-navy/10 rounded-full flex items-center justify-center shadow-2xl hover:border-investindxb hover:text-investindxb transition-all group overflow-hidden"
+            href="#">
+            <span
+                class="material-symbols-outlined text-2xl group-hover:-translate-y-12 transition-transform duration-300">call</span>
+            <span
+                class="material-symbols-outlined text-2xl absolute translate-y-12 group-hover:translate-y-0 transition-transform duration-300">call</span>
+        </a>
+    </div>
+
+</body>
+
+</html>
